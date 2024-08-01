@@ -1,0 +1,7 @@
+<?php
+$meuCarro = new Carro("Fiat", "Uno", "2022");
+$meuCarro = new Carro("Toyota", "Corolla", "2021");
+
+echo $meuCarro->ligar() . "<br>";
+echo $meuCarro->frear() . "<br>";
+?>
