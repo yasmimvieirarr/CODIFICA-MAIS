@@ -25,3 +25,4 @@ $menorValor = encontrarMenorValor($numeros);
 echo "O menor valor é: $menorValor\n";
 
 ?>
+
