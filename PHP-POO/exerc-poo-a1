@@ -1,0 +1,25 @@
+<?php
+
+class Carro {
+
+public $marca;
+public $modelo;
+public $ano;
+
+public function __construct($marca, $modelo, $ano)
+    $this->marca = $marca;
+    $this->marca = $modelo;
+    $this->marca = $ano;
+
+}
+
+public function ligar() {
+    return "O carro " . $this->marca . " " . $this->modelo . "está ligado.";
+}
+
+public function frear() {
+    return "O freio do carro " . $this->marca . " " . $this->modelo . "foi acionado.";
+
+}
+
+?>
